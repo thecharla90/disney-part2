@@ -12,9 +12,13 @@
 	background-color:rosybrown;
 }
 
+#steamboat{
+		background-color:rosybrown;
+}
 #wrapper{
 	width:500px;
 	margin:0 auto;
+	clear: both;
 }
 header{
 	width:100%;
@@ -80,24 +84,44 @@ nav a:hover {
 }
 
 .table{
-	width: auto; 
-	float:left;
+	width: 60%; 
+	height: 380px;
+	float:right;
 	padding-left: 30px;
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-top:30px;
+	margin-top:10px;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 18px;
+	clear: both;
+}
+
+
+.walt {
+	float:left;
+    width: 40%;
+	height: 80px;
+	clear: both;
+	display: block;
+}
+.steamvideo{
+margin-left: 80px;
+padding-left: 80px;
+
+}
+
+.video{
+margin-right:80px;
+
 }
 .container{
-	width: auto;
+	width:600%;
+	height: auto;
 	margin:0 auto;
-	
+	clear: both;
 }
-
-aside {
-    width: 40%;
-    padding-left: .5rem;
-    margin-left: .5rem;
+p{
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+text-decoration: none;
+font-size: 30px;
 }
-
